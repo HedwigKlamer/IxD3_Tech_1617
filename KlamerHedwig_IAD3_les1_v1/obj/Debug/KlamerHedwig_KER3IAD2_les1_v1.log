@@ -1,0 +1,189 @@
+﻿  main.cpp
+  ofApp.cpp
+  ofxJSONElement.cpp
+  jsoncpp.cpp
+  SQLiteCppUtils.cpp
+  sqlite3.c
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(17401): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(17401): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+  Backup.cpp
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(21523): error C2440: '=': cannot convert from 'void *' to 'sqlite3_mutex *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(21523): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22414): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22414): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22426): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22426): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22891): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(22891): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23002): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23002): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23158): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23158): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23193): error C2440: 'initializing': cannot convert from 'SrcList::SrcList_item *' to 'SrcList_item *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23193): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23196): error C2027: use of undefined type 'SrcList_item'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(14228): note: see declaration of 'SrcList_item'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23196): error C2227: left of '->zDatabase' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23197): error C2027: use of undefined type 'SrcList_item'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(14228): note: see declaration of 'SrcList_item'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23197): error C2227: left of '->zDatabase' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23197): error C2660: 'sqlite3StrAccumAppendAll': function does not take 1 arguments
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23200): error C2027: use of undefined type 'SrcList_item'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(14228): note: see declaration of 'SrcList_item'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23200): error C2227: left of '->zName' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23200): error C2660: 'sqlite3StrAccumAppendAll': function does not take 1 arguments
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23263): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23263): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23265): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23265): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23347): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(23347): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24096): error C2440: 'initializing': cannot convert from 'void *' to 'unsigned char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24096): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24354): error C2440: '=': cannot convert from 'void *' to 'SQLiteThread *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24354): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24749): error C2440: '=': cannot convert from 'void *' to 'unsigned char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24749): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24916): error C2664: 'int sqlite3VdbeMemSetStr(Mem *,const char *,int,u8,void (__cdecl *)(void *))': cannot convert argument 2 from 'const void *' to 'const char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24916): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24935): error C2440: 'initializing': cannot convert from 'const void *' to 'const unsigned char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(24935): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26484): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26484): error C2227: left of '->count' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26484): error C2227: left of '->chain' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26485): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26485): error C2227: left of '->count' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26486): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26486): error C2227: left of '->chain' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26516): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26517): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26531): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26536): error C2440: '=': cannot convert from '_ht *' to 'Hash::_ht *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26536): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26537): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26538): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26545): error C2036: '_ht *': unknown size
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26563): error C2440: '=': cannot convert from 'Hash::_ht *' to '_ht *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26563): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26564): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26564): error C2227: left of '->chain' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26565): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26565): error C2227: left of '->count' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26600): error C2440: '=': cannot convert from 'Hash::_ht *' to '_ht *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26600): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26601): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26601): error C2227: left of '->chain' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26602): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26602): error C2227: left of '->chain' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26604): error C2027: use of undefined type '_ht'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26479): note: see declaration of '_ht'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26604): error C2227: left of '->count' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26674): error C2664: 'void insertElement(Hash *,_ht *,HashElem *)': cannot convert argument 2 from 'Hash::_ht *' to '_ht *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(26674): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36383): error C2440: '=': cannot convert from 'void *' to 'LPWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36383): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36408): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36408): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36438): error C2440: '=': cannot convert from 'void *' to 'LPWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36438): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36467): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(36467): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38366): error C2440: '=': cannot convert from 'void *' to 'winShm *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38366): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38369): error C2440: '=': cannot convert from 'void *' to 'winShmNode *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38369): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38702): error C2027: use of undefined type 'winShmMap::ShmRegion'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38666): note: see declaration of 'winShmMap::ShmRegion'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38707): error C2440: '=': cannot convert from 'winShmMap::ShmRegion *' to 'winShmNode::ShmRegion *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(38707): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39131): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39131): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39240): error C2440: 'initializing': cannot convert from 'void *' to 'LPWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39240): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39268): error C2440: 'initializing': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39268): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39700): error C2664: 'DWORD (LPCWSTR)': cannot convert argument 1 from 'void *' to 'LPCWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39700): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39716): error C2664: 'BOOL (LPCWSTR)': cannot convert argument 1 from 'void *' to 'LPCWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39716): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39729): error C2664: 'DWORD (LPCSTR)': cannot convert argument 1 from 'void *' to 'LPCSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39729): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39744): error C2664: 'BOOL (LPCSTR)': cannot convert argument 1 from 'void *' to 'LPCSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(39744): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40019): error C2440: '=': cannot convert from 'void *' to 'LPWSTR'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40019): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40045): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40045): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40125): error C2664: 'FARPROC (HMODULE,LPCSTR)': cannot convert argument 1 from 'HANDLE' to 'HMODULE'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40125): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40132): error C2664: 'BOOL (HMODULE)': cannot convert argument 1 from 'HANDLE' to 'HMODULE'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40132): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40529): error C2440: '=': cannot convert from 'void *' to 'Bitvec *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40529): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40624): error C2440: 'initializing': cannot convert from 'void *' to 'u32 *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40624): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40667): error C2440: 'initializing': cannot convert from 'void *' to 'u32 *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40667): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40758): error C2440: '=': cannot convert from 'void *' to 'unsigned char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(40758): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(41803): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(41803): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(42897): error C2440: '=': cannot convert from 'void *' to 'RowSet *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(42897): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(42941): error C2440: '=': cannot convert from 'void *' to 'RowSetChunk *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(42941): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(45885): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(45885): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(46326): error C2664: 'int sqlite3WalReadFrame(Wal *,u32,int,u8 *)': cannot convert argument 4 from 'void *' to 'u8 *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(46326): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(48013): error C2440: '=': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(48013): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): error C2440: 'initializing': cannot convert from 'WalIterator::WalSegment *' to 'walIteratorNext::WalSegment *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52157): error C2027: use of undefined type 'walIteratorNext::WalSegment'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): note: see declaration of 'walIteratorNext::WalSegment'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52157): error C2227: left of '->iNext' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52157): error C2227: left of '->nEntry' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52158): error C2027: use of undefined type 'walIteratorNext::WalSegment'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): note: see declaration of 'walIteratorNext::WalSegment'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52158): error C2227: left of '->aPgno' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52158): error C2227: left of '->aIndex' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52158): error C2227: left of '->iNext' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52162): error C2027: use of undefined type 'walIteratorNext::WalSegment'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): note: see declaration of 'walIteratorNext::WalSegment'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52162): error C2227: left of '->iZero' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52162): error C2227: left of '->aIndex' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52162): error C2227: left of '->iNext' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52166): error C2027: use of undefined type 'walIteratorNext::WalSegment'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52156): note: see declaration of 'walIteratorNext::WalSegment'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52166): error C2227: left of '->iNext' must point to class/struct/union/generic type
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52351): error C2027: use of undefined type 'walIteratorInit::WalSegment'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(52351): note: see declaration of 'walIteratorInit::WalSegment'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(53662): error C2664: 'void walEncodeFrame(Wal *,u32,u32,u8 *,u8 *)': cannot convert argument 4 from 'void *' to 'u8 *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(53662): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(56505): error C2440: '=': cannot convert from 'void *' to 'unsigned char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(56505): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57023): error C2440: '=': cannot convert from 'void *' to 'u8 *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57023): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57303): error C2440: '=': cannot convert from 'void *' to 'Btree *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57303): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57323): error C2440: 'initializing': cannot convert from 'void *' to 'char *'
+  ..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57323): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57395): error C2440: '=': cannot convert from 'void *' to 'BtShared *'
+..\..\..\addons\ofxSQLiteCpp\libs\SQLiteCpp\sqlite3\sqlite3.c(57395): fatal error C1003: error count exceeds 100; stopping compilation
+  Column.cpp
+  Database.cpp
+  Statement.cpp
+  Transaction.cpp

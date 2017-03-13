@@ -1,0 +1,7 @@
+﻿  ofApp.cpp
+c:\users\hedwi\documents\of_v0.9.8_vs_release\apps\ixd3_tech_1617\klamerhedwig_iad3_les2_v1\src\ofApp.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+src\ofApp.cpp(31): warning C4129: ' ': unrecognized character escape sequence
+  KLamerHedwig_IAD3_Les2_v1.vcxproj -> C:\Users\hedwi\Documents\of_v0.9.8_vs_release\apps\IxD3_Tech_1617\KLamerHedwig_IAD3_Les2_v1\bin\KLamerHedwig_IAD3_Les2_v1_debug.exe
+  KLamerHedwig_IAD3_Les2_v1.vcxproj -> bin\KLamerHedwig_IAD3_Les2_v1_debug.pdb (Full PDB)
+  
+  	                   9	C:\Users\hedwi\Documents\of_v0.9.8_vs_release\export\vs\Win32\
