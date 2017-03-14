@@ -4,12 +4,14 @@
 void ofApp::setup() {
     string databasePath = ofToDataPath("bevolking.sqlite", true);
     db = new SQLite::Database(databasePath);
+	myFont.load("Amazing Infographic@ Free.otf", 36);
 	
 	northP.load("images/northPeople.png");
 	eastP.load("images/eastPeople.png");
 	southP.load("images/southPeople.png");
 	westP.load("images/westPeople.png");
-
+	xPeople = 35;
+	yPeople = 20;
 }
 
 void ofApp::update() {
@@ -29,30 +31,36 @@ void ofApp::update() {
             east = (query.getColumn("east").getInt()) * 100/total;
             south = (query.getColumn("south").getInt()) * 100/total;
             west = (query.getColumn("west").getInt()) * 100/total;
-            ofLog() << selectedYear << " " << total << " "
+            ofLog() << selectedYear << " " << total << "  north-> "
                     << north << " " << east << " " << south << " " << west
                     << endl;
         }
-
-        query.reset();
+	    query.reset();
     }
-	
-
-
 }
 
 void ofApp::draw() {
 	ofSetBackgroundColor(93, 93, 93);
 	ofSetCircleResolution(100);
 
-	northP.draw(20, 20);
-	eastP.draw(20, 100);
-	southP.draw(20, 180);
-	westP.draw(20, 260);
-    //ofDrawCircle(ofGetWidth() / 2 * 0.5, ofGetHeight() / 2 * 0.5, west * 1.0f / total * 200);
-    //ofDrawCircle(ofGetWidth() / 2 * 1.5, ofGetHeight() / 2 * 0.5, east * 1.0f / total * 200);
-    //ofDrawCircle(ofGetWidth() / 2 * 0.5, ofGetHeight() / 2 * 1.5, north * 1.0f / total * 200);
-    //ofDrawCircle(ofGetWidth() / 2 * 1.5, ofGetHeight() / 2 * 1.5, south * 1.0f / total * 200);
+	for (int i = 0; i <= north; i++) {
+		northP.draw(i * xPeople + xPeople/2, 50);
+	}
+	for (int i = 0; i <= east; i++) {
+		eastP.draw(i * xPeople + xPeople / 2, 170);
+	}
+	for (int i = 0; i <= south; i++) {
+		southP.draw(i * xPeople + xPeople / 2, 290);
+	}
+	for (int i = 0; i <= west; i++) {
+		westP.draw(i * xPeople + xPeople / 2, 410);
+	}
+	ofSetColor(255, 253, 255);
+	myFont.drawString(ofToString(selectedYear), 20, 530);
+	myFont.drawString(ofToString("north"), 20, 50);
+	myFont.drawString(ofToString("east"), 20, 160);
+	myFont.drawString(ofToString("south"), 20, 280);
+	myFont.drawString(ofToString("west"), 20, 400);
 }
 
 void ofApp::keyPressed(int key) {

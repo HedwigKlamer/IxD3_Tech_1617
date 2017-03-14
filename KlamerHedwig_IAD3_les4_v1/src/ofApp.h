@@ -32,5 +32,10 @@ class ofApp : public ofBaseApp {
         int south;
         int west;
 
+		int xPeople;
+		int yPeople;
+
+		ofTrueTypeFont myFont;
+
 
 };
