@@ -1,19 +1,11 @@
 #include "ofApp.h"
 
 void ofApp::setup(){
+	// over de database: eerste en tweede kolommen is de X en Y as in pixels van mijn eigen scherm.
+	//Derde kolom is de naam van de boom die op dat coordinaat staat. Hier inporteer ik de database.
 	db = new SQLite::Database("data/databaseBomen_XY.csv"); 
 
 	mapImage.load("KaartBomen_design.png");
-	
-	/*SQLite::Statement query(*db, "SELECT*FROM databaseBomen WHERE BoomGeslacht=?");
-	for (string BoomGeslacht = "Acer") {
-		query.bind(1, BoomGeslacht);
-		if (query.executeStep()) {
-			ofLog() << query.getColumn("BoomGeslacht") << " " << query.getColumn("X-as") << endl;
-		}
-		query.reset();
-	}
-	*/
 }
 
 void ofApp::update(){
@@ -40,8 +32,10 @@ void ofApp::update(){
 }
 
 void ofApp::draw(){
-	//mapImage.draw(0, 0);
+	
+	mapImage.draw(0, 0);
 
+	//teken een rood vierkant op de coordinaten van de bomen
 	ofNoFill();
 	ofSetColor(ofColor::red);
 	ofDrawRectangle(10,10,boomX, boomY);
@@ -52,7 +46,7 @@ void ofApp::draw(){
 }
 
 void ofApp::keyPressed(int key){
-
+	//functie maken zodat ik per boom soort de punten daarvan op het scherm aan en uit kan zetten.
 }
 
 void ofApp::keyReleased(int key){
