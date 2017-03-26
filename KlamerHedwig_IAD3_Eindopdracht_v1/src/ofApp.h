@@ -19,7 +19,8 @@ private:
 
 	int boomX;
 	int boomY;
-
+	
+	string selectedN;
 	string boomN;
 		
 };
