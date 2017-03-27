@@ -64,13 +64,13 @@ void ofApp::draw() {
 
 void ofApp::keyPressed(int key) {
 	//functie maken zodat ik per boom soort de punten daarvan op het scherm aan en uit kan zetten.
-	if (key = 'a') {
+	if (key == 'a') {
 		boomN = "Acer";
 	} 
-	if(key = 's') {
+	if(key == 's') {
 		boomN = "Quercus";
 	}
-	if (key = 'd') {
+	if (key == 'd') {
 		boomN = "Taxodium";
 	}
 }
