@@ -7,6 +7,7 @@ void ofApp::setup() {
 
 	mapImage.load("KaartBomen_design.png");
 	point.load("point.png");
+	esdoorn.load("testText.png");
 
 
 	string statement = "SELECT X_as, Y_as,BoomGeslacht FROM databaseBomen_XY";
@@ -58,7 +59,9 @@ void ofApp::draw() {
 	for (int i=0; i < Xlijst.size(); i++) {
 	
 		point.draw(Xlijst[i]-15, Ylijst[i]-15);
-		
+	}
+	if (boomN == "Acer") {
+		esdoorn.draw(0, 100);
 	}
 }
 

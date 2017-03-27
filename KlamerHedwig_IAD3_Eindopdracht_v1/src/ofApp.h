@@ -17,6 +17,7 @@ private:
 	SQLite::Database* db;
 	ofImage mapImage;
 	ofImage point;
+	ofImage esdoorn;
 
 	int boomX;
 	int boomY;
