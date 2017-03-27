@@ -16,11 +16,17 @@ class ofApp : public ofBaseApp{
 private:
 	SQLite::Database* db;
 	ofImage mapImage;
+	ofImage point;
 
 	int boomX;
 	int boomY;
+	string boomGeslacht;
 	
 	string selectedN;
 	string boomN;
+
+	vector<int> Xlijst;
+	vector<int> Ylijst;
+	vector<string> NaamB;
 		
 };
