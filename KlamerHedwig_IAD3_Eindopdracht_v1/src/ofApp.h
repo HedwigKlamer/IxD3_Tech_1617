@@ -11,7 +11,6 @@ class ofApp : public ofBaseApp{
 		void draw();
 
 		void keyPressed(int key);
-		void keyReleased(int key);
 
 private:
 	SQLite::Database* db;
@@ -19,10 +18,15 @@ private:
 	ofImage point;
 	ofImage esdoorn;
 
+	ofArduino arduino;
+	void setupArduino(const int& version);
+	void digitalPinChanged(const int& pin);
+	bool bSetupArduino;
+
 	int boomX;
 	int boomY;
+
 	string boomGeslacht;
-	
 	string selectedN;
 	string boomN;
 
