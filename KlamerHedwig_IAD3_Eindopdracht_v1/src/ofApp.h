@@ -16,7 +16,10 @@ private:
 	SQLite::Database* db;
 	ofImage mapImage;
 	ofImage point;
-	ofImage esdoorn;
+
+	ofImage Aesculus;
+	ofImage Alnus;
+	ofImage Quercus;
 
 	ofArduino arduino;
 	void setupArduino(const int& version);
